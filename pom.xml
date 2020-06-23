@@ -45,14 +45,14 @@
   
   <distributionManagement>
 	<repository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
+		<id>nexusdeploymentRepo</id>
+		<name>devmax</name>
 		<url>http://192.168.7.173:8081//repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
+		<id>nexusdeploymentRepo</id>
+		<name>devmax</name>
 		<url>http://192.168.7.173:8081//repository/maven-snapshots/</url>
 	</snapshotRepository>
 
